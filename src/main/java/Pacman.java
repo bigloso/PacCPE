@@ -20,7 +20,7 @@ public class Pacman {
     }
     public void setxAxis(int xAxis){
         if(isAlive){
-            if (this.xAxis >533) this.xAxis = 533;
+            if (this.xAxis >730) this.xAxis = 730;
             else if(this.xAxis <0) this.xAxis =0 ;
             else  this.xAxis = xAxis ;
         }
@@ -32,7 +32,7 @@ public class Pacman {
     }
     public void setyAxis(int yAxis){
         if(isAlive){
-            if (this.yAxis >800) this.yAxis = 800 ;
+            if (this.yAxis >430) this.yAxis = 430 ;
             else if(this.yAxis <0) this.yAxis =0 ;
             else  this.yAxis = yAxis ;
         }
