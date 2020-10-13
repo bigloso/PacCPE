@@ -5,7 +5,7 @@ public class Move implements KeyListener {
 
     private  Pacman pacman ;
     private  Level level ;
-    private int speed = 1 ;
+    private int speed = 10 ;
 
     public Move(Pacman pacman,Level level ){
         this.level = level ;
