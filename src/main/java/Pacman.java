@@ -41,7 +41,7 @@ public class Pacman {
     public String getImagePath(){
         return  imagePath;
     }
-    public void setImagePath(String imagePath){
+    public void setImagePath(String imagePath){ //set imagePacman
         if (imagePath == null){
             JOptionPane.showMessageDialog(null,"Invalid string!");
             System.exit(1);
@@ -54,9 +54,9 @@ public class Pacman {
     }
     public void setAlive(boolean isAlive){
         this.isAlive = isAlive;
-    }
+    } // check life
 
-    public void drawPacman(Graphics g){
+    public void drawPacman(Graphics g){ // for call Pacman image
         ImageIcon img = new ImageIcon(imagePath);
         g.drawImage(img.getImage(),xAxis,yAxis,null);
     }
