@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="PacCPE1" />
-        <module name="pac cpe" />
         <module name="PacCPE" />
+        <module name="pac cpe" />
+        <module name="PacCPE1" />
       </profile>
     </annotationProcessing>
   </component>
