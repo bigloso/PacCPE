@@ -30,7 +30,7 @@ public class Wall  {
         this.yAis = yAis ;
     }
 
-    public void setImagePat(String imagePat){
+    public void setImagePat(String imagePat){ //set imageWall
         if (imagePat == null){
             JOptionPane.showMessageDialog(null,"Invalid string");
             System.exit(1);
@@ -42,7 +42,7 @@ public class Wall  {
         return imagePat ;
     }
 
-    public void drawWall(Graphics w) {
+    public void drawWall(Graphics w) {  // for call image
         ImageIcon wall = new ImageIcon(imagePat);
         w.drawImage(wall.getImage(),xAis,yAis,null);
 
