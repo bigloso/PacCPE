@@ -3,7 +3,7 @@ import java.awt.*;
 public class Level extends JPanel {
 
          JFrame window = new JFrame("PAC CPE") ; // add title
-         Pacman pacman = new Pacman(0,0,"assets//ghost1.png",true); // add pacman.png
+         Pacman pacman = new Pacman(20,20,"assets//ghost1.png",true); // add pacman.png
          Wall wall = new Wall(0,0,"assets//Wall.png");// add wall.png
          Move move =new Move(pacman,this); // Call move form class move
         public  Level(){ // Map 1
@@ -20,6 +20,10 @@ public class Level extends JPanel {
                 g.drawImage(background.getImage(),0,0,null);
                 wall.drawWall(g);
                 pacman.drawPacman(g);
+        }
+
+        public void antiWall(){
+
         }
 
 }
