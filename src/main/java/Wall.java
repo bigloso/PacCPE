@@ -14,19 +14,19 @@ public class Wall  {
         this.setyAis(yAis);
     }
 
-    public int getxAis() {
+    private int getxAis() {
         return xAis ;
     }
 
-    public void setxAis(int xAis){
+    private void setxAis(int xAis){
          this.xAis = xAis ;
     }
 
-    public int getyAis(){
+    private int getyAis(){
         return yAis ;
     }
 
-    public void setyAis(int yAis){
+    private void setyAis(int yAis){
         this.yAis = yAis ;
     }
 
